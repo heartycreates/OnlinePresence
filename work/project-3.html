@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Hearty Cheung - Project 3</title>
+  
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+ 
+  <link href="../css/style.css" rel="stylesheet" type="text/css">
+  <link href="../css/webflow.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["Oleo Script Swash Caps:regular,700:latin,latin-ext","Oleo Script:regular,700:latin,latin-ext"]  }});</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+<body class="body-2">
+
+  <div class="navbar">
+    <ul>
+        <li><a href="../index.html">About</a></li>
+        <li><a href="../projects.html">Works</a></li>
+    </ul>
+  </div>
+
+
+ 
+
+
+  
+  <div class="section">
+    <div class="projectContainer">
+      <br>
+      <br>
+      
+        <a href="../projects.html" class="backButton"><span class="text-span">← Back To See Other Projects</span></a>
+
+      <div class="projectParagraphs">
+        <div id="paragraph">
+          <h1 class="heading">Programming Generative Art Series</h1>
+          <div class="paragraph-light">Programming Bootcamp</div>
+        </div>
+        <div id="paragraph">
+          <div class="service-name-text">Project Overview</div>
+          <br>
+          <div class="paragraph-light">This Art Series is a collection created during my programming bootcamp, where I have been introduced to the fundamental knowledge of coding in Java with a creative approach. 	<br>
+            </div>
+        </div>
+        <div id="paragraph">
+          <div class="service-name-text">My Contributions</div>
+          <br>
+          <div class="paragraph-light">Artist and Programmer<br>
+          <br>
+          As a female former humanities student who performed poorly in Maths, I perceived programming as fearful, dry, boring and emotionless, a field for males and mathematicians and building rockets. It was like a field that I could only stare from afar and never be able to wrap a single brain cell around it. However, the bootcamp has taught me to see programming as a tool of expression, to express my mind with a new set of tools. Being able to look at all the original works from my peers was also an interesting process because it allows us to see the differences in our thinking process.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="projectImages"><img src="../images/project3_pic1.png" >
+    <div class="projectParagraphs">
+      <div id="paragraph">
+        <div class="service-name-text">#1 The Kaleidoscope Overview</div>
+        <br>
+        <div class="paragraph-light">On day 2 of the bootcamp, we learnt about repeat using the while and for loops and functions. We learnt the purpose of what loops and iteration is, which includes a process of initializing, testing, taking action, updating and back to testing, and how we can make statements using a loop to create repetition of images and interesting effects. <br>
+          <br>
+          </div>
+      </div>
+   
+    <div id="paragraph">
+      <div class="service-name-text">Creative Process</div>
+      <br>
+      <div class="paragraph-light">In this assignment I overlayed different built in shapes and colors on top of each other to create a more complex and original graphic on my own. I also set a thin stroke weight in the setup so that all shapes will be surrounded by a thin line that gives a retro aesthetic. 
+        Next I created and named a function using these lines of codes and made x, y parameters that allowed me to locate the graphic in the draw() function, at a desired coordinate location. I then used 2 layers of for loops to repeat the x and y axis of the graphic function, so that the graphic fills the whole canvas seamlessly. Lastly I applied relational operators along with the mouse pressed and mouse button variables to control the distance between the patterns. When the left mouse button is pressed, the pattern will enlarge itself and when the right button is pressed, the pattern contracts. Both movements create new patterns that are different from the original. <br>
+        <br>In addition, I applied random values in the fill() function of the larger ellipse to create a red and yellow ranged neon light effect.We learnt that a for loop allows us to combine these steps all together. We then learnt about the purpose of a function and how to create our own functions with the example of drawing crosses on the draw() function step by step, to producing different kinds of crosses by inputting different grey values, stroke weight and positions in the same function’s parameters. We can also make the crosses vibrate by adding random values to the function.
+        <br>
+        <br>Lastly, we learn that functions are calculators and we can use them to return a value according to the date type that we want. We learnt with an example with a rectangle, which its size is determined by a dice function that calculates and returns one random value per draw. 
+    </div>
+  </div>
+  </div>
+   
+    <div><img src="../images/project3_pic2.png" loading="lazy" sizes="50vw" srcset="../images/project3_pic2.png 500w, ../images/project3_pic2.png 800w, ../images/project3_pic2.png 1080w, ../images/project3_pic2.png 1302w" alt="project3_pic2.png"></div>
+    <div class="projectParagraphs">
+      <div id="paragraph">
+        <div class="service-name-text">#2 Mini Bouncing Ball Game Overview</div>
+        <br>
+        <div class="paragraph-light">On day 3 We learnt how to control the flow of a program and the use of the draw() function to create a game loop, a continuously running sketch. We also learnt about conditionals and learnt to set up conditionals that include a test and a statement that cause the program to behave differently according to values of the variables, they are if/ else if/ else. Lastly, we then learnt to use logical operators (&&, ||, ! )to enable one or more conditions to be fulfilled in order to trigger an action of a program.
+          In the last section, we learn how to use mouse data(x and y axis), positions, buttons, events and keyboard data. Combined with the use of conditionals, they become means of interaction between user and the program. 
+          <br>
+          <br>
+          </div>
+      </div>
+   
+    <div id="paragraph">
+      <div class="service-name-text">Creative Process</div>
+      <br>
+      <div class="paragraph-light">I wanted to create a ping pong game because I thought it was a simple game. The truth is that its execution was more complex than I thought. I first approached the creation by creating shapes: the ball with ellipse() function, followed by 2 paddles with the rect() function. I also set up boolean variables that indicate direction of the movements of the ball. Then, I set up conditionals using logical operators that are triggered by different keys that are pressed on the keyboard. For example, when key ‘q’ and ‘a’ is pressed the paddles will move either up or downward. I also set several conditions that when the ball’s x or y axis is larger or smaller than the width or height of the canvas, the values will revert itself in the opposing direction; or the ball will move in the opposite direction when the paddle catches the ball. When the ball is missed, it will reset itself back to the starting position on the canvas. <br>
+        <br>It took a long time for me to figure out how to limit the values for the boundaries of the paddle so that the ball would only bounce back within the length of the paddle it touches. The color of the background is interactive with the mouse value, which changes according to the mouse’s movement. This allows players to choose their favourite backgrounds before the start of the game. I also managed to create some beautiful art throughout my creation process. 
+    </div>
+  </div>
+  </div>
+   
+    <div><img src="../images/project3_pic3.png" loading="lazy" sizes="50vw" srcset="../images/project3_pic3.png 500w, ../images/project3_pic3.png 800w, ../images/project3_pic3.png 1080w, ../images/project3_pic3.png 1302w" alt="project3_pic3.png"></div>
+    <div class="projectParagraphs">
+      <div id="paragraph">
+        <div class="service-name-text">#3 The Ice Cream <br> Interactive Poster Overview</div>
+        <br>
+        <div class="paragraph-light">On the last day we learnt about what an array is and the use of array. Length, why we use them and the types of data it can store. We started with a simple exercise of declaring an array. We then learnt that it is possible to combine all the declaring, creating and assigning parts together to make it more convenient and easy to read. We then learnt how to apply the values stored in the array and the value of its length to loops to create a customized message for 3 different students using a simplified version of short code. We also learnt how you can apply arrays to help with calculations of an average value, or to track the latest datas of the x and y axis values of your mouse so that it's possible to draw a graph on the canvas. 
+           <br>
+          <br>
+          </div>
+      </div>
+   
+    <div id="paragraph">
+      <div class="service-name-text">Creative Process</div>
+      <br>
+      <div class="paragraph-light">For the last assignment I created a summer themed interactive graphic combining the knowledge that I’ve learnt in the past few days. It is inspired by the advertisement banners on fashion sites. <br><br>
+        I firstly created two functions, sunGlasses(), cream() and decor() that contains the graphics of a pair of sunglasses, an ice cream and neon lights decor, and placed them into a frame with different colors that was inspired by Piet Mondrian’s “Composition with red blue and yellow”. In the sunglasses section, the x value of the user's cursor will control the movement of a set of simple line patterns from the background. 
+        <br><br>An array string named quotes is used to store 4 quotes that show up when users press 0,1,2 or 3 that says”see the good”, “happy coding”, “don’t worry”, “be happy” respectively. In the neon light section, users can increase or decrease the number of neon lights on each string by pressing the left or right button with their mouse. 
+        The ice cream scoops are animated to jump up and down repeatedly using relational expressions and if conditionals. If key ‘a’ is pressed, the raspberry, vanilla and lemon ice cream will turn into blueberries, vanilla and strawberry flavor. Lastly, I used array and random values to generate constantly jumping white and dark chocolate sprinkles on top. 
+    </div>
+  </div>
+  </div>
+  </div>
+  <div class="section">
+    <div class="container"></div>
+  </div>
+  <div class="section">
+  
+      <div class="email-section">
+        <h1 class="heading">Want to work together?</h1>
+        <p>If you like what you see and want to work together, get in touch!</p>
+        <a href="mailto:heidicheung07@gmail.com?subject=You&#x27;ve%20got%20mail!" class="email-link">heidicheung07@gmail.com</a>
+      </div>
+
+  </div>
+  <div class="footer-wrap">
+    <div></div>
+    <div class="footer-links">
+      <a href="https://www.behance.net/heidicillu203b" target="_blank" class="footer-item">Behance</a>
+      <a href="https://www.instagram.com/heartycreates/" target="_blank" class="footer-item">Instagram</a>
+    </div>
+  </div>
+
+</body>
+</html>
